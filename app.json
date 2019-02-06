@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/tab_bookall/bookall",
+    "pages/tab_mybook/mybook",
+    "pages/tab_usercenter/usercenter"
+  ],
+  "window": {
+    "navigationBarTitleText": "线上书城"
+  },
+  "tabBar": {
+    "color": "#084faf",
+    "borderStyle": "black",
+    "backgroundcolor":"#6e7886",
+    "list": [
+      {
+        "pagePath": "pages/tab_bookall/bookall",
+        "text": "书城",
+        "iconPath":"images/icon_bookall.png",
+        "selectedIconPath":"images/icon_bookall.png",
+        "selectedColor": "#1ed258"
+      },
+      {
+        "pagePath": "pages/tab_mybook/mybook",
+        "text": "书架",
+        "iconPath": "images/icon_mybook.png",
+        "selectedIconPath": "images/icon_mybook.png",
+        "selectedColor": "#1ed258"
+      },
+      {
+        "pagePath": "pages/tab_usercenter/usercenter",
+        "text": "用户",
+        "iconPath": "images/icon_usercenter.png",
+        "selectedIconPath": "images/icon_usercenter.png",
+        "selectedColor": "#1ed258"
+      }
+    ]
+  },
+  "usingComponents":{},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
